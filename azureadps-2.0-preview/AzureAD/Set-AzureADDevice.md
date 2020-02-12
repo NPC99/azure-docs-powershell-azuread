@@ -7,9 +7,11 @@ ms.reviewer: rodejo
 online version:
 schema: 2.0.0
 ---
-
-# Set-AzureADDevice
-
+Remove-AzureADDevice
+      -ObjectId <String>
+      [-InformationAction <ActionPreference>]
+      [-InformationVariable <String>]
+      [<CommonParameters>]
 ## SYNOPSIS
 Updates a device.
 
